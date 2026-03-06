@@ -1,0 +1,77 @@
+p {
+  color: rgb(187, 88, 48);
+  font-size: 20px;
+  border-bottom: 1px solid rgb(65, 11, 11);
+}
+<div class="container" > ... </div > .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+div {
+  padding: 2px 3px 4px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+table {
+  th: 100%;
+  border-collapse: collapse;
+}
+table tr:nth-child(even) {
+  background-color: rgb(241, 128, 99);
+}
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5rem;
+  color: #440808;
+  margin: 0;
+}
+header {
+  border-bottom: 1px solid rgb(238, 173, 130);
+}
+h1 {
+  text-align: center;
+  color: rgb(95, 26, 26);
+}
+footer {
+  background-color: rgb(233, 190, 150);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: tomato;
+}
+<div class="container" > </div > .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+main {
+  padding: 30px 0;
+}
+.info {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table th {
+  text-align: left;
+}
+.table th,
+.table td {
+  padding: 10px;
+}
+.table tr:nth-child(even) {
+  background-color: bisque;
+}
